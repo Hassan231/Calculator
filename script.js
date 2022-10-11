@@ -7,9 +7,11 @@ Array.from(button).forEach((button) => {
         string = eval(string);
         document.querySelector('input').value = string;
     }
+    else{
     console.log(e.target);
     string = string + e.target.innerHTML;
     document.querySelector('input').value = string;
+    }
   });
 });
 //till here it clicks in console inspect
