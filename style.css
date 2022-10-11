@@ -12,6 +12,7 @@ body {
   border: 2px solid black;
   border-radius: 15px;
   cursor: pointer;
+  width: 66px;
 }
 .row {
   margin: 6px 0;
@@ -23,4 +24,5 @@ body {
   border: 2px solid black;
   border-radius: 5px;
   font-size: 19px;
+  width: 291px;
 }
